@@ -83,3 +83,13 @@ a {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    width: 90vw;
+  }
+}
