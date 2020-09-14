@@ -1,52 +1,85 @@
-
-body{
-    background-color: black;
-    font-family: 'VT323', monospace;
-
+body {
+  font-family: "Roboto Mono", monospace;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .videoContainer {
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.passwordContainer {
-    color: white;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.inputContainer {
+  color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
-    background-color: black;
-    color: white;
-    border: none;
-    height: 50%;
-    font-size: 2em;
-    margin-left: 15px;
-    width: 15%;
-    font-family: 'VT323', monospace;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50%;
+  font-size: 1.25em;
+  margin-left: 15px;
+  width: 100px;
+  font-family: "Roboto Mono", monospace;
 }
 
-textarea:focus, input:focus{
-    outline: none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
-h1{
-    color: white;
+p {
+  font-size: 1.25em;
+  color: white;
 }
 
 button {
-    background-color: black;
-    border-color: rgb(80, 126, 253);
-    color: white;
-    width: 275px;
+  background-color: black;
+  border-color: white;
+  color: rgb(80, 126, 253);
+  width: 100px;
 }
 
 button:focus {
   color: rgb(80, 126, 253);
 }
+
+.footer {
+  width: 25vw;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  box-shadow: 1px 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.25em;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+.background {
+  z-index: -1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
