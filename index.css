@@ -93,6 +93,10 @@ a {
   height: 100px;
 }
 
+.comingSoon {
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .footer {
     width: 70vw;
