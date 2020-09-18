@@ -75,9 +75,15 @@ a {
 }
 .background {
   z-index: -1;
-  object-fit: cover;
   width: 75vw;
   height: 75vh;
+  top: 0;
+  left: 0;
+}
+.gifBackground {
+  z-index: -1;
+  width: 50vw;
+  height: 25vh;
   top: 0;
   left: 0;
 }
