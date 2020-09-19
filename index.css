@@ -72,8 +72,8 @@ body {
 }
 
 .comingSoon {
-  width: 25%;
-  height: 75%;
+  width: 20rem;
+  height: 10rem;
 }
 
 .csContainer {
@@ -84,6 +84,6 @@ body {
 
 @media only screen and (max-width: 600px) {
   .comingSoon {
-    width: 50%;
+    width: 8rem;
   }
 }
