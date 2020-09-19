@@ -52,6 +52,10 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 
 .mainContainer {
   height: 95vh;
@@ -86,7 +90,9 @@ body {
   .comingSoon {
     width: 8rem;
   }
-
+  .mainContainer{
+    height:100vh;
+  }
   .graphic {
     width: 100%;
   }
