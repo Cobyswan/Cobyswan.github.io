@@ -86,4 +86,8 @@ body {
   .comingSoon {
     width: 8rem;
   }
+
+  .graphic {
+    width: 100%;
+  }
 }
